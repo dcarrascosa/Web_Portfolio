@@ -27,6 +27,10 @@ bun install
 # Iniciar servidor de desarrollo
 bun run dev
 # o npm run dev
+
+#Iniciar servidor en otro puerto
+bun run dev --port 5173
+# o npm run dev -- --port 5173
 ```
 
 Luego abre [http://localhost:5173](http://localhost:5173) en tu navegador.
